@@ -12,15 +12,7 @@ struct tabView: View {
     
     var body: some View {
         TabView {
-            VStack {
-                Text("People")
-                    .font(.title)
-                    .bold()
-                
-                List(model.usuarios) { weyes in
-                    ListView(person: weyes)
-                }
-            }
+            ListView()
             .tabItem {
                 VStack {
                     Image(systemName: "person.fill")

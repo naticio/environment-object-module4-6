@@ -12,6 +12,16 @@ struct ListView: View {
     var person: User
     
     var body: some View {
+        
+        VStack {
+            Text("People")
+                .font(.title)
+                .bold()
+            
+            List(model.usuarios) { weyes in
+                ListView(person: weyes)
+            }
+        }
         VStack(alignment: .leading) {
             if model.showName == true {
                 Text("Name: \(person.name)")
@@ -31,7 +41,6 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView(person: User)
-            .environmentObject(UserModel())
+        ListView()
     }
 }
