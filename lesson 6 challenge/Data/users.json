@@ -1,0 +1,27 @@
+[
+    {
+       "name": "John Lennon",
+       "address": "NYC",
+       "company": "The Beatles",
+       "YOE": 20
+    },
+    {
+       "name": "Paul McCartney",
+       "address": "France",
+       "company": "Wings",
+       "YOE": 19
+    },
+    {
+       "name": "George Harrison",
+       "address": "London",
+       "company": "The Beatles",
+       "YOE": 15
+    },
+    {
+       "name": "Ringo Starr",
+       "address": "LA",
+       "company": "All Starr band",
+       "YOE": 25
+    },
+]
+
