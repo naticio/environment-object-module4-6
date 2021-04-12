@@ -12,13 +12,14 @@ struct tabView: View {
     
     var body: some View {
         TabView {
+            
             ListView()
-            .tabItem {
-                VStack {
-                    Image(systemName: "person.fill")
-                    Text("People")
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person.fill")
+                        Text("People")
+                    }
                 }
-            }
             
             toggles()
                 .tabItem {

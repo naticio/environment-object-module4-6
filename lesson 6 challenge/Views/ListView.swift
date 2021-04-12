@@ -18,8 +18,12 @@ struct ListView: View {
                 .font(.title)
                 .bold()
             
-            List(model.usuarios) { weyes in
-                ListView(person: weyes)
+            List(model.usuarios) { morro in
+                Text(morro.name)
+                Text(morro.address)
+                Text(morro.company)
+                Text(morro.YOE)
+                
             }
         }
         VStack(alignment: .leading) {
